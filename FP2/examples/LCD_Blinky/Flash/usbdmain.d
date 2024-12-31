@@ -1,0 +1,11 @@
+.\flash\usbdmain.o: ..\USBAudio\usbdmain.c
+.\flash\usbdmain.o: ..\USBAudio\LPC17xx.h
+.\flash\usbdmain.o: ..\USBAudio\core_cm3.h
+.\flash\usbdmain.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\usbdmain.o: ..\USBAudio\system_LPC17xx.h
+.\flash\usbdmain.o: ..\USBAudio\type.h
+.\flash\usbdmain.o: ..\USBAudio\usb.h
+.\flash\usbdmain.o: ..\USBAudio\usbcfg.h
+.\flash\usbdmain.o: ..\USBAudio\usbhw.h
+.\flash\usbdmain.o: ..\USBAudio\usbcore.h
+.\flash\usbdmain.o: ..\USBAudio\usbaudio.h

@@ -1,0 +1,152 @@
+Dependencies for Project 'Blinky', Target 'LPC1768 Flash': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\startup_LPC17xx.s)(0x5088026E)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx--pd "__UVISION_VERSION SETA 531"--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x537CB372)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\system_lpc17xx.o --omf_browse .\flash\system_lpc17xx.crf --depend .\flash\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\..\common\inc\LPC17xx.h)(0x537C1E0A)
+I (..\..\common\inc\core_cm3.h)(0x4D250C6C)
+I (..\..\common\inc\system_LPC17xx.h)(0x537CB1A8)
+F (.\core_cm3.c)(0x4BB24908)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\core_cm3.o --omf_browse .\flash\core_cm3.crf --depend .\flash\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+F (.\Blinky.c)(0x65651676)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (..\..\common\inc\LPC17xx.H)(0x537C1E0A)
+I (..\..\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\..\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC81EC4)
+I (GLCD.h)(0x50880322)
+I (LED.h)(0x50880322)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (KBD.h)(0x5DDFE2D8)
+I (..\..\common\inc\type.h)(0x4D250C6C)
+I (images.h)(0x6564F773)
+I (..\..\NewCFiles\tvhcpg1.c)(0x6554DA40)
+I (..\..\NewCFiles\tvhcpg2.c)(0x6554DAA0)
+I (..\..\NewCFiles\tvhcpg3.c)(0x6554DAF0)
+I (..\..\NewCFiles\tvhcpg4.c)(0x6554DB26)
+I (..\..\NewCFiles\tvhcpg5.c)(0x6554DB64)
+I (..\..\NewCFiles\redrocket3.c)(0x655E47F5)
+I (..\..\NewCFiles\asteroid.c)(0x655BD281)
+I (..\..\NewCFiles\MHS.c)(0x6564D252)
+I (..\..\NewCFiles\MHL.c)(0x6564D252)
+I (..\..\NewCFiles\MHLH.c)(0x6564D252)
+I (..\..\NewCFiles\MHR.c)(0x6564D252)
+I (..\..\NewCFiles\MHRH.c)(0x6564D252)
+I (..\..\NewCFiles\MHW.c)(0x6564D252)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC81EBC)
+I (..\USBAudio\usb.h)(0x51801F34)
+I (..\USBAudio\usbcfg.h)(0x51801F34)
+I (..\USBAudio\usbhw.h)(0x51801F34)
+I (..\USBAudio\usbcore.h)(0x51801F34)
+I (..\USBAudio\usbaudio.h)(0x51801F34)
+F (.\IRQ.c)(0x4BB24908)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\irq.o --omf_browse .\flash\irq.crf --depend .\flash\irq.d)
+F (.\GLCD_SPI_LPC1700.c)(0x50880322)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\glcd_spi_lpc1700.o --omf_browse .\flash\glcd_spi_lpc1700.crf --depend .\flash\glcd_spi_lpc1700.d)
+I (..\..\common\inc\lpc17xx.h)(0x537C1E0A)
+I (..\..\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\..\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (GLCD.h)(0x50880322)
+I (Font_6x8_h.h)(0x50880322)
+I (Font_16x24_h.h)(0x50880322)
+F (.\LED.c)(0x50880322)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\led.o --omf_browse .\flash\led.crf --depend .\flash\led.d)
+I (..\..\common\inc\LPC17xx.H)(0x537C1E0A)
+I (..\..\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\..\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (LED.h)(0x50880322)
+F (.\KBD.c)(0x5DDFE2D8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\kbd.o --omf_browse .\flash\kbd.crf --depend .\flash\kbd.d)
+I (..\..\common\inc\LPC17xx.H)(0x537C1E0A)
+I (..\..\common\inc\core_cm3.h)(0x4D250C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\..\common\inc\system_LPC17xx.h)(0x537CB1A8)
+I (KBD.h)(0x5DDFE2D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+F (..\USBAudio\adcuser.c)(0x51801F34)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\adcuser.o --omf_browse .\flash\adcuser.crf --depend .\flash\adcuser.d)
+I (..\USBAudio\type.h)(0x4D251A7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\USBAudio\usb.h)(0x51801F34)
+I (..\USBAudio\audio.h)(0x51801F34)
+I (..\USBAudio\usbcfg.h)(0x51801F34)
+I (..\USBAudio\usbcore.h)(0x51801F34)
+I (..\USBAudio\adcuser.h)(0x51801F34)
+I (..\USBAudio\usbaudio.h)(0x51801F34)
+F (..\USBAudio\usbcore.c)(0x51801F34)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\usbcore.o --omf_browse .\flash\usbcore.crf --depend .\flash\usbcore.d)
+I (..\USBAudio\type.h)(0x4D251A7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\USBAudio\usb.h)(0x51801F34)
+I (..\USBAudio\usbcfg.h)(0x51801F34)
+I (..\USBAudio\usbhw.h)(0x51801F34)
+I (..\USBAudio\usbcore.h)(0x51801F34)
+I (..\USBAudio\usbdesc.h)(0x51801F34)
+I (..\USBAudio\usbuser.h)(0x51801F34)
+I (..\USBAudio\audio.h)(0x51801F34)
+I (..\USBAudio\adcuser.h)(0x51801F34)
+F (..\USBAudio\usbdesc.c)(0x51801F34)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\usbdesc.o --omf_browse .\flash\usbdesc.crf --depend .\flash\usbdesc.d)
+I (..\USBAudio\type.h)(0x4D251A7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\USBAudio\usb.h)(0x51801F34)
+I (..\USBAudio\audio.h)(0x51801F34)
+I (..\USBAudio\usbcfg.h)(0x51801F34)
+I (..\USBAudio\usbdesc.h)(0x51801F34)
+F (..\USBAudio\usbdmain.c)(0x65651676)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\usbdmain.o --omf_browse .\flash\usbdmain.crf --depend .\flash\usbdmain.d)
+I (..\USBAudio\LPC17xx.h)(0x537C1E0A)
+I (..\USBAudio\core_cm3.h)(0x4D251A7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\USBAudio\system_LPC17xx.h)(0x5452635A)
+I (..\USBAudio\type.h)(0x4D251A7C)
+I (..\USBAudio\usb.h)(0x51801F34)
+I (..\USBAudio\usbcfg.h)(0x51801F34)
+I (..\USBAudio\usbhw.h)(0x51801F34)
+I (..\USBAudio\usbcore.h)(0x51801F34)
+I (..\USBAudio\usbaudio.h)(0x51801F34)
+F (..\USBAudio\usbhw.c)(0x54526372)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\usbhw.o --omf_browse .\flash\usbhw.crf --depend .\flash\usbhw.d)
+I (..\USBAudio\LPC17xx.h)(0x537C1E0A)
+I (..\USBAudio\core_cm3.h)(0x4D251A7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\USBAudio\system_LPC17xx.h)(0x5452635A)
+I (..\USBAudio\type.h)(0x4D251A7C)
+I (..\USBAudio\usb.h)(0x51801F34)
+I (..\USBAudio\usbcfg.h)(0x51801F34)
+I (..\USBAudio\usbreg.h)(0x51801F34)
+I (..\USBAudio\usbhw.h)(0x51801F34)
+I (..\USBAudio\usbcore.h)(0x51801F34)
+I (..\USBAudio\usbuser.h)(0x51801F34)
+F (..\USBAudio\usbuser.c)(0x51801F34)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\usbuser.o --omf_browse .\flash\usbuser.crf --depend .\flash\usbuser.d)
+I (..\USBAudio\type.h)(0x4D251A7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (..\USBAudio\usb.h)(0x51801F34)
+I (..\USBAudio\usbcfg.h)(0x51801F34)
+I (..\USBAudio\usbhw.h)(0x51801F34)
+I (..\USBAudio\usbcore.h)(0x51801F34)
+I (..\USBAudio\usbuser.h)(0x51801F34)
+I (..\USBAudio\usbaudio.h)(0x51801F34)
+F (..\USBAudio\adcuser.h)(0x51801F34)()
+F (..\USBAudio\audio.h)(0x51801F34)()
+F (..\USBAudio\usb.h)(0x51801F34)()
+F (..\USBAudio\usbaudio.h)(0x51801F34)()
+F (..\USBAudio\usbcfg.h)(0x51801F34)()
+F (..\USBAudio\usbcore.h)(0x51801F34)()
+F (..\USBAudio\usbhw.h)(0x51801F34)()
+F (..\USBAudio\usbreg.h)(0x51801F34)()
+F (..\USBAudio\usbuser.h)(0x51801F34)()
+F (.\Bg_16bpp_t.c)(0x4BB24908)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\bg_16bpp_t.o --omf_browse .\flash\bg_16bpp_t.crf --depend .\flash\bg_16bpp_t.d)
+F (.\Bg_16bpp_l.c)(0x4BB24908)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\bg_16bpp_l.o --omf_browse .\flash\bg_16bpp_l.crf --depend .\flash\bg_16bpp_l.d)
+F (.\Bg_16bpp_r.c)(0x4BB24908)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\bg_16bpp_r.o --omf_browse .\flash\bg_16bpp_r.crf --depend .\flash\bg_16bpp_r.d)
+F (.\Bg_16bpp_b.c)(0x4BB24908)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\bg_16bpp_b.o --omf_browse .\flash\bg_16bpp_b.crf --depend .\flash\bg_16bpp_b.d)
+F (.\ARM_Ani_16bpp.c)(0x4BB24908)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\arm_ani_16bpp.o --omf_browse .\flash\arm_ani_16bpp.crf --depend .\flash\arm_ani_16bpp.d)
+F (.\images.h)(0x6564F773)()
+F (..\..\NewCFiles\tvhcpg1.c)(0x6554DA40)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\tvhcpg1.o --omf_browse .\flash\tvhcpg1.crf --depend .\flash\tvhcpg1.d)
+F (..\..\NewCFiles\tvhcpg2.c)(0x6554DAA0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\tvhcpg2.o --omf_browse .\flash\tvhcpg2.crf --depend .\flash\tvhcpg2.d)
+F (..\..\NewCFiles\tvhcpg3.c)(0x6554DAF0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\tvhcpg3.o --omf_browse .\flash\tvhcpg3.crf --depend .\flash\tvhcpg3.d)
+F (..\..\NewCFiles\tvhcpg4.c)(0x6554DB26)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\tvhcpg4.o --omf_browse .\flash\tvhcpg4.crf --depend .\flash\tvhcpg4.d)
+F (..\..\NewCFiles\tvhcpg5.c)(0x6554DB64)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\tvhcpg5.o --omf_browse .\flash\tvhcpg5.crf --depend .\flash\tvhcpg5.d)
+F (..\..\NewCFiles\redrocket2.c)(0x655BC174)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\redrocket2.o --omf_browse .\flash\redrocket2.crf --depend .\flash\redrocket2.d)
+F (..\..\NewCFiles\asteroid.c)(0x655BD281)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\asteroid.o --omf_browse .\flash\asteroid.crf --depend .\flash\asteroid.d)
+F (..\..\NewCFiles\redrocket3.c)(0x655E47F5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\redrocket3.o --omf_browse .\flash\redrocket3.crf --depend .\flash\redrocket3.d)
+F (..\..\NewCFiles\MHL.c)(0x6564D252)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\mhl.o --omf_browse .\flash\mhl.crf --depend .\flash\mhl.d)
+F (..\..\NewCFiles\MHLH.c)(0x6564D252)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\mhlh.o --omf_browse .\flash\mhlh.crf --depend .\flash\mhlh.d)
+F (..\..\NewCFiles\MHR.c)(0x6564D252)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\mhr.o --omf_browse .\flash\mhr.crf --depend .\flash\mhr.d)
+F (..\..\NewCFiles\MHRH.c)(0x6564D252)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\mhrh.o --omf_browse .\flash\mhrh.crf --depend .\flash\mhrh.d)
+F (..\..\NewCFiles\MHS.c)(0x6564D252)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\mhs.o --omf_browse .\flash\mhs.crf --depend .\flash\mhs.d)
+F (..\..\NewCFiles\MHW.c)(0x6564D252)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\common\inc -I ..\..\RevisedCFiles -I ..\..\common\src -I ..\..\NewCFiles -I ..\USBAudio --diag_suppress 550-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531"-o .\flash\mhw.o --omf_browse .\flash\mhw.crf --depend .\flash\mhw.d)
+F (.\Abstract.txt)(0x4BB24908)()
